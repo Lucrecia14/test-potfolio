@@ -1,0 +1,466 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/efc5b14ce5.js" crossorigin="anonymous"></script>
+
+<!-- Google poppin font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Montserrat:ital,wght@0,200;0,600;1,200&family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-end Developer</p>
+                <h1>Hi, I am <span>Joyce</span><br>Idowu from Nigeria</h1>
+            </div>
+        </div>
+    </div>
+    <!---------About-------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Joyce Idowu,I am a native of Ipetumodu in Ife, Osun state which is known for its rich culture and customs in Nigeria. I am a Front-end Developer, Web Content Developer. I have keen interest in creative and analytical activites and i am a team player with an for detail. I have always love working with the system, it has become more of an hobby than a Job for me, its either that or watching Sci-fi movies.</p>
+
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End Developer</span><br>Building the Front-end of websites and web applications</li>
+                            <li><span>Content Developer</span><br>Preparing, writing and editing online content</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2017 - Current</span><br>Transaction offier at Guaranty Tust Bank</li>
+                            <li><span>2016 - 2017</span><br>Customer care officer at Fidelity pension managers</li>
+                            <li><span>2014 - 2015</span><br>Data Entry Personnel at Kogi State Polytechnic</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019 - 2021</span><br>Bsc. in Computer Science at Ladoke Akintola University</li>
+                            <li><span>2008 - 2010</span><br>ND in Computer Science at Federal Polytechnic Ado-Ekiti</li>
+                            <li><span>2012 - 2014</span><br>HND in Computer Science at Federal Polytechnic Ado-Ekiti</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------------Services------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Front-End web design</h2>
+                <p>development of a mobile friendly user-interface, creating the structure and design of web pages, building reusable codes and optimizing page loading time.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fab fa-blogger"></i>
+                <h2>Web Content Development</h2>
+                <p>Development and editing of online contents; articles, blogs, ad copy, social media post and video contents. Search Engine Optimization, HTML formatting. </p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Web App Development</h2>
+                <p>Creating good and functioning web applications, website updating, keeping website visually appealing and easy to navigate.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- --------portfolio-------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>Moving Car Animation</h3>
+                    <p>Using HTML, CSS and Animation properties, a moving car on a road is developed. This innovation can be used to develop very robust, vibrant and lively animations</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.PNG">
+                <div class="layer">
+                    <h3>SocialBook Web Landing Page</h3>
+                    <p>A social site landing page similar to Facebook for connecting with friends and family.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>POP-UP</h3>
+                    <p>A simple Pop-up message created using HTML,CSS and JavaScript</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- -------------------------------------Contact----------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> joyce.idowu90@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +2348073491965</p>
+                <div class="social-icons">
+                    <a href="https://mobile.facebook.com/joyce.idowu.7"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/Shemiramoth?t=U4oyFOJKOFKPZCF98PeARQ&s=09"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/shemiramoth/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/14b984b2"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="JAYresume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright 2022. Joyce Porfolio. <i class="fas fa-heart"></i></p>
+    </div>
+</div>
+<!-- ---------JavaScript to display information intervally as one click on the menu------- -->
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+             for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+             }
+             for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+             }
+             event.currentTarget.classList.add("active-link");
+             document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <!-- -----------JavaScript to dispaly and close menu at the side bar on a smaller screen----- -->
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+
+
+<!----JavaScript to receive information on google sheet once the contact form is filled on the site-- -->
+<!-- ----And a JavaScript 'const msg' to display a message after contact form have been filled---- -->
+
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwBbKy5iQG-ly27BEM2JzzYsX_wZmh0akM35-5hPNJUWU0Q2olp3pK1XkQ7sLhFOxQu4w/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/efc5b14ce5.js" crossorigin="anonymous"></script>
+
+<!-- Google poppin font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Montserrat:ital,wght@0,200;0,600;1,200&family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-end Developer</p>
+                <h1>Hi, I am <span>Joyce</span><br>Idowu from Nigeria</h1>
+            </div>
+        </div>
+    </div>
+    <!---------About-------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Joyce Idowu,I am a native of Ipetumodu in Ife, Osun state which is known for its rich culture and customs in Nigeria. I am a Front-end Developer, Web Content Developer. I have keen interest in creative and analytical activites and i am a team player with an for detail. I have always love working with the system, it has become more of an hobby than a Job for me, its either that or watching Sci-fi movies.</p>
+
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End Developer</span><br>Building the Front-end of websites and web applications</li>
+                            <li><span>Content Developer</span><br>Preparing, writing and editing online content</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2017 - Current</span><br>Transaction offier at Guaranty Tust Bank</li>
+                            <li><span>2016 - 2017</span><br>Customer care officer at Fidelity pension managers</li>
+                            <li><span>2014 - 2015</span><br>Data Entry Personnel at Kogi State Polytechnic</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019 - 2021</span><br>Bsc. in Computer Science at Ladoke Akintola University</li>
+                            <li><span>2008 - 2010</span><br>ND in Computer Science at Federal Polytechnic Ado-Ekiti</li>
+                            <li><span>2012 - 2014</span><br>HND in Computer Science at Federal Polytechnic Ado-Ekiti</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------------Services------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Front-End web design</h2>
+                <p>development of a mobile friendly user-interface, creating the structure and design of web pages, building reusable codes and optimizing page loading time.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fab fa-blogger"></i>
+                <h2>Web Content Development</h2>
+                <p>Development and editing of online contents; articles, blogs, ad copy, social media post and video contents. Search Engine Optimization, HTML formatting. </p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Web App Development</h2>
+                <p>Creating good and functioning web applications, website updating, keeping website visually appealing and easy to navigate.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- --------portfolio-------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>Moving Car Animation</h3>
+                    <p>Using HTML, CSS and Animation properties, a moving car on a road is developed. This innovation can be used to develop very robust, vibrant and lively animations</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.PNG">
+                <div class="layer">
+                    <h3>SocialBook Web Landing Page</h3>
+                    <p>A social site landing page similar to Facebook for connecting with friends and family.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>POP-UP</h3>
+                    <p>A simple Pop-up message created using HTML,CSS and JavaScript</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- -------------------------------------Contact----------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> joyce.idowu90@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +2348073491965</p>
+                <div class="social-icons">
+                    <a href="https://mobile.facebook.com/joyce.idowu.7"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/Shemiramoth?t=U4oyFOJKOFKPZCF98PeARQ&s=09"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/shemiramoth/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/14b984b2"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="JAYresume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright 2022. Joyce Porfolio. <i class="fas fa-heart"></i></p>
+    </div>
+</div>
+<!-- ---------JavaScript to display information intervally as one click on the menu------- -->
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+             for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+             }
+             for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+             }
+             event.currentTarget.classList.add("active-link");
+             document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <!-- -----------JavaScript to dispaly and close menu at the side bar on a smaller screen----- -->
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+
+
+<!----JavaScript to receive information on google sheet once the contact form is filled on the site-- -->
+<!-- ----And a JavaScript 'const msg' to display a message after contact form have been filled---- -->
+
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwBbKy5iQG-ly27BEM2JzzYsX_wZmh0akM35-5hPNJUWU0Q2olp3pK1XkQ7sLhFOxQu4w/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+>>>>>>> 9eeaf5e8e1c455887af1f6ef64e6c0018afb12c8
+</html>
